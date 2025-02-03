@@ -1,0 +1,17 @@
+node? node --version
+
+install typescript: npm i -g typescript 
+tsc -v
+
+index.ts
+{
+    
+}
+tsc index.ts //transpiler
+creation de index.js
+tsc -h 
+tsc -w index.ts
+si js sup sans pb 
+tsc --init
+ "rootDir": "./src",
+"outDir": "./dist",
