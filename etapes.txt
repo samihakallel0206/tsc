@@ -1,17 +1,17 @@
 node? node --version
-
-install typescript: npm i -g typescript 
+install typescript: npm i -g typescript //globale
 tsc -v
-
+npm i typescript // projet
 index.ts
 {
     
 }
 tsc index.ts //transpiler
 creation de index.js
-tsc -h 
-tsc -w index.ts
-si js sup sans pb 
+tsc -h  //help
+tsc -w index.ts // pour le watch: le compilateur vous suit 
+
 tsc --init
- "rootDir": "./src",
-"outDir": "./dist",
+ "rootDir": "./src", //les ts
+"outDir": "./dist",  // les js
+tsc -w
